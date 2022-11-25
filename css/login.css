@@ -1,0 +1,108 @@
+.login_container {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgb(80, 80, 80);
+    margin-top: 10%;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+.login {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+
+}
+
+.text {
+    font-size: 30px;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+.underline {
+    width: 450px;
+    height: 5px;
+    background-color: white;
+    margin: 0 auto;
+    opacity: 0%;
+    margin-bottom: 25px;
+
+    transition-duration: 1;
+}
+
+.input {
+
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.input input {
+    border-radius: 25px;
+    width: 450px;
+    border: solid 1px #aaa;
+    outline: none;
+    height: 60px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    background-color: #aaa;
+}
+
+.button a {
+    text-decoration: none;
+}
+.button {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    text-align: center;
+
+    width: auto; height: auto;
+}
+
+.button_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: 50px;
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    font-size: 25px;
+    line-height: 0.8;
+    text-decoration: none;
+    color:  #aaa;
+}
+
+
+
+.button_login:hover {
+    color: black;
+    background-color: rgb(204, 196, 196);
+
+
+    transition-duration: 1s;
+}
+
+.input input:focus-visible {
+    background-color: #fff;
+    color: black;
+    transition-duration: 1s;
+    
+}
+.inp:focus-within .underline {
+    opacity: 100%;
+    
+}
+
+
+.login_container:hover .underline{
+    opacity: 100%;
+    transition-duration: 1s;
+}
