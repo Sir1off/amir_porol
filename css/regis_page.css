@@ -1,0 +1,145 @@
+.regis_panel {
+
+    width: 1400px;
+    height: 700px;
+    background-color: #fff;
+    border: solid 5px black;
+    border-radius: 30px;
+
+    margin: 0 auto;
+
+    padding: 30px;
+
+}
+
+.container {
+    padding: 10%;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+
+    text-align: center;
+}
+
+     .regis_text h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.regis_text p {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.underline {
+    width: 1300px;
+    height: 5px;
+    background-color: black;
+}
+.input_container {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #aaa;
+    margin-bottom:  20px;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.password {
+    width: 100%;
+    height: 100px;
+    background-color: #aaa;
+    margin-bottom:  20px;
+
+}
+
+
+.password_re {
+    width: 100%;
+    height: 100px;
+    background-color: #aaa;
+    margin-bottom:  20px;
+
+}
+ .text{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 100px;
+    padding: 0 20px;
+    font-size: 30px;
+}
+.input {
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    
+display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 30px;
+    background-color: #ccc;
+    padding: 0 20px;
+}
+
+.button_section {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    width: 200px ;
+    height: 80px;
+    background-color: #aaa;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.close {
+    background-color: #f00;
+    margin-right: 200px;
+    color: white;
+}   
+
+.create {
+    background-color: green;
+    color: white;
+
+}
+
+.input:hover {
+    background-color: rgb(102, 102, 102);
+    outline: none;
+    transition-duration: 1s;
+
+}
+
+.create:hover {
+    background-color: rgb(1, 82, 1);
+    transition-duration: 1s;
+
+}
+
+.close:hover {
+    background-color: rgb(143, 5, 5);
+    transition-duration: 1s;
+
+}
+
+.input {
+ 
+    transition-duration: 1s;
+    border-radius: 0 25px 25px 0;
+}
