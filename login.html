@@ -1,21 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <style>
-        @import url(css/login.css);
+        .login_container {
+            width: 600px;
+            height: 600px;
+            margin: 0 auto;
+            background-color: rgb(80, 80, 80);
+            margin-top: 10%;
+            border-radius: 25px;
+            overflow: hidden;
+
+        }
+
+        .login {
+            font-family: 'Roboto', sans-serif;
+            color: white;
+
+
+        }
+
+        .text {
+            font-size: 30px;
+            text-align: center;
+            transition-duration: 1s;
+        }
+
+        .underline {
+            width: 450px;
+            height: 5px;
+            background-color: white;
+            margin: 0 auto;
+            opacity: 0%;
+            margin-bottom: 25px;
+
+            transition-duration: 1;
+        }
+
+        .input {
+
+            width: 450px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .input input {
+            border-radius: 25px;
+            width: 450px;
+            border: solid 1px #aaa;
+            outline: none;
+            height: 60px;
+            font-size: 25px;
+            margin-bottom: 25px;
+            background-color: #aaa;
+        }
+
+        .button button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 25px;
+
+            width: 200px;
+            height: 70px;
+            background-color: white;
+            font-size: 25px;
+            line-height: 0.8;
+            text-decoration: none;
+            color: #aaa;
+        }
+
+        .button {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 25px;
+            text-align: center;
+
+            width: auto;
+            height: auto;
+        }
+
+        .button button {
+            outline: none;
+            border: #aaa solid 1px;
+            width: 200px;
+            height: 70px;
+        }
+
+
+
+
+        .button:hover button {
+            color: black;
+            background-color: rgb(204, 196, 196);
+
+
+            transition-duration: 1s;
+        }
+
+        .input input:focus-visible {
+            background-color: #fff;
+            color: black;
+            transition-duration: 1s;
+
+        }
+
+        .inp:focus-within .underline {
+            opacity: 100%;
+
+        }
+
+
+        .login_container:hover .underline {
+            opacity: 100%;
+            transition-duration: 1s;
+        }
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
 </head>
+
 <body>
     <div class="login">
         <div class="login_container">
             <div class="text">
                 <h1>Login</h1>
-                
+
             </div>
 
             <div class="underline">
@@ -24,17 +140,18 @@
 
             <div class="input">
                 <input class="inp" type="text" placeholder="Login" name="Login">
-                
+
                 <input type="text" placeholder="Password" name="Password">
             </div>
             <div class="button">
-                <a href="#">
+                <button>
                     <div class="button_login">
                         <p>Login</p>
                     </div>
-                </a>
+                </button>
             </div>
         </div>
     </div>
 </body>
+
 </html>

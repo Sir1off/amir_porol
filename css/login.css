@@ -51,26 +51,12 @@
     background-color: #aaa;
 }
 
-.button a {
-    text-decoration: none;
-}
-.button {
+.button button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
     
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 25px;
-    text-align: center;
-
-    width: auto; height: auto;
-}
-
-.button_login{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 25px;
-    margin-top: 50px;
     width: 200px;
     height: 70px;
     background-color: white;
@@ -79,10 +65,26 @@
     text-decoration: none;
     color:  #aaa;
 }
+.button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    text-align: center;
+
+    width: auto; height: auto;
+}
+.button button {
+    outline: none;
+    border: #aaa solid 1px;
+    width: 200px;height: 70px;
+}
 
 
 
-.button_login:hover {
+
+.button:hover  button{
     color: black;
     background-color: rgb(204, 196, 196);
 
